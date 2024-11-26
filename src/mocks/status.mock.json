@@ -1,0 +1,58 @@
+{
+    "tms.api.rest.dataaccess.status.create.v1": {
+        "data": {
+            "StatusID": 2,
+            "StatusName": "Open",
+            "CreatedUserID": 1,
+            "CreatedBy": "user",
+            "CreatedDate": "2023-11-04T10:43:03.574Z",
+            "ModifiedUserID": 1,
+            "ModifiedBy": "user",
+            "ModifiedDate": "2023-11-04T10:43:03.574Z"
+        },
+        "status": 200,
+        "message": "[MOCK] Status has been created successfully"
+    },
+    "tms.api.rest.dataaccess.status.read.v1": {
+        "data": {
+            "StatusID": 2,
+            "StatusName": "Open",
+            "CreatedUserID": 1,
+            "CreatedBy": "user",
+            "CreatedDate": "2023-11-04T10:43:03.574Z",
+            "ModifiedUserID": 1,
+            "ModifiedBy": "user",
+            "ModifiedDate": "2023-11-04T10:43:03.574Z"
+        },
+        "status": 200,
+        "message": "[MOCK] Status has been read successfully"
+    },
+    "tms.api.rest.dataaccess.status.readone.v1": {
+        "data": {
+            "StatusID": 2,
+            "StatusName": "Open",
+            "CreatedUserID": 1,
+            "CreatedBy": "user",
+            "CreatedDate": "2023-11-04T10:43:03.574Z",
+            "ModifiedUserID": 1,
+            "ModifiedBy": "user",
+            "ModifiedDate": "2023-11-04T10:43:03.574Z"
+        },
+        "status": 200,
+        "message": "[MOCK] Status has been readone successfully"
+    },
+    "tms.api.rest.dataaccess.status.update.v1": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[MOCK] Status has been updated successfully"
+    },
+    "tms.api.rest.dataaccess.status.delete.v1": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[MOCK] Status has been deleted successfully"
+    }
+}

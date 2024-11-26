@@ -1,0 +1,58 @@
+{
+    "tms.api.rest.dataaccess.severity.create.v1": {
+        "data": {
+            "SeverityID": 2,
+            "SeverityName": "High",
+            "CreatedUserID": 1,
+            "CreatedBy": "system-user",
+            "CreatedDate": "2023-11-04T10:41:36.968Z",
+            "ModifiedUserID": null,
+            "ModifiedBy": null,
+            "ModifiedDate": "2023-11-04T10:41:36.968Z"
+        },
+        "status": 200,
+        "message": "[MOCK] Severity has been created successfully"
+    },
+    "tms.api.rest.dataaccess.severity.read.v1": {
+        "data": {
+            "SeverityID": 2,
+            "SeverityName": "High",
+            "CreatedUserID": 1,
+            "CreatedBy": "system-user",
+            "CreatedDate": "2023-11-04T10:41:36.968Z",
+            "ModifiedUserID": null,
+            "ModifiedBy": null,
+            "ModifiedDate": "2023-11-04T10:41:36.968Z"
+        },
+        "status": 200,
+        "message": "[MOCK] Severity has been read successfully"
+    },
+    "tms.api.rest.dataaccess.severity.readone.v1": {
+        "data": {
+            "SeverityID": 2,
+            "SeverityName": "High",
+            "CreatedUserID": 1,
+            "CreatedBy": "system-user",
+            "CreatedDate": "2023-11-04T10:41:36.968Z",
+            "ModifiedUserID": null,
+            "ModifiedBy": null,
+            "ModifiedDate": "2023-11-04T10:41:36.968Z"
+        },
+        "status": 200,
+        "message": "[MOCK] Severity has been readone successfully"
+    },
+    "tms.api.rest.dataaccess.severity.update.v1": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[MOCK] Severity has been updated successfully"
+    },
+    "tms.api.rest.dataaccess.severity.delete.v1": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[MOCK] Severity has been deleted successfully"
+    }
+}

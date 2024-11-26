@@ -1,0 +1,322 @@
+{
+    "tms.api.rest.dataaccess.task.create.v1": {
+        "ID": 1,
+        "Name": "Create TASK",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/task/v1/task",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.task.read.v1": {
+        "ID": 2,
+        "Name": "READ TASKS",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/task/v1/tasks",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.task.readone.v1": {
+        "ID": 3,
+        "Name": "READ ONE TASK",
+        "Method": "GET",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/task/v1/task/:taskid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.task.update.v1": {
+        "ID": 4,
+        "Name": "UPDATE MULTIPLE TASK",
+        "Method": "PATCH",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/task/v1/tasks",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.task.deleteone.v1": {
+        "ID": 5,
+        "Name": "DELETE ONE TASK",
+        "Method": "DELETE",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/task/v1/task/:taskid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.user.create.v1": {
+        "ID": 6,
+        "Name": "Create USER",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/user/v1/user",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.user.read.v1": {
+        "ID": 7,
+        "Name": "READ USERS",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/user/v1/users",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.user.readone.v1": {
+        "ID": 8,
+        "Name": "READ ONE USER",
+        "Method": "GET",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/user/v1/user/:userid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.user.update.v1": {
+        "ID": 9,
+        "Name": "UPDATE MULTIPLE USER",
+        "Method": "PATCH",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/user/v1/users",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.user.deleteone.v1": {
+        "ID": 10,
+        "Name": "DELETE ONE USER",
+        "Method": "DELETE",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/user/v1/user/:userid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.status.create.v1": {
+        "ID": 11,
+        "Name": "Create STATUS",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/status/v1/status",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.status.read.v1": {
+        "ID": 12,
+        "Name": "READ STATUSS",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/status/v1/statuses",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.status.readone.v1": {
+        "ID": 13,
+        "Name": "READ ONE STATUS",
+        "Method": "GET",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/status/v1/status/:statusid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.status.update.v1": {
+        "ID": 14,
+        "Name": "UPDATE MULTIPLE STATUS",
+        "Method": "PATCH",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/status/v1/statuss",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.status.deleteone.v1": {
+        "ID": 15,
+        "Name": "DELETE ONE STATUS",
+        "Method": "DELETE",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/status/v1/status/:statusid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.priority.create.v1": {
+        "ID": 16,
+        "Name": "Create PRIORITY",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/priority/v1/priority",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.priority.read.v1": {
+        "ID": 17,
+        "Name": "READ PRIORITYS",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/priority/v1/priorityes",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.priority.readone.v1": {
+        "ID": 18,
+        "Name": "READ ONE PRIORITY",
+        "Method": "GET",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/priority/v1/priority/:priorityid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.priority.update.v1": {
+        "ID": 19,
+        "Name": "UPDATE MULTIPLE PRIORITY",
+        "Method": "PATCH",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/priority/v1/prioritys",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.priority.deleteone.v1": {
+        "ID": 20,
+        "Name": "DELETE ONE PRIORITY",
+        "Method": "DELETE",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/priority/v1/priority/:priorityid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.severity.create.v1": {
+        "ID": 21,
+        "Name": "Create SEVERITY",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/severity/v1/severity",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.severity.read.v1": {
+        "ID": 22,
+        "Name": "READ SEVERITYIES",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/severity/v1/severities",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.severity.readone.v1": {
+        "ID": 23,
+        "Name": "READ ONE SEVERITY",
+        "Method": "GET",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/severity/v1/severity/:severityid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.severity.update.v1": {
+        "ID": 24,
+        "Name": "UPDATE MULTIPLE SEVERITY",
+        "Method": "PATCH",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/severity/v1/severities",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.severity.deleteone.v1": {
+        "ID": 25,
+        "Name": "DELETE ONE SEVERITY",
+        "Method": "DELETE",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/severity/v1/severity/:severityid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.activity.create.v1": {
+        "ID": 26,
+        "Name": "Create ACTIVITY",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/activity/v1/activity",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.activity.read.v1": {
+        "ID": 27,
+        "Name": "READ ACTIVITIES",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/activity/v1/activities",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.activity.readone.v1": {
+        "ID": 28,
+        "Name": "READ ONE ACTIVITY",
+        "Method": "GET",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/activity/v1/activity/:activityid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.activity.update.v1": {
+        "ID": 29,
+        "Name": "UPDATE MULTIPLE ACTIVITY",
+        "Method": "PATCH",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/activity/v1/activities",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.activity.deleteone.v1": {
+        "ID": 30,
+        "Name": "DELETE ONE ACTIVITY",
+        "Method": "DELETE",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/activity/v1/activity/:activityid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.merchant.create.v1": {
+        "ID": 31,
+        "Name": "Create MERCHANT",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/merchant/v1/merchant",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.merchant.read.v1": {
+        "ID": 32,
+        "Name": "READ MERCHANTS",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/merchant/v1/merchants",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.merchant.readone.v1": {
+        "ID": 33,
+        "Name": "READ ONE MERCHANT",
+        "Method": "GET",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/merchant/v1/merchant/:merchantid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.merchant.update.v1": {
+        "ID": 34,
+        "Name": "UPDATE MULTIPLE MERCHANT",
+        "Method": "PATCH",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/merchant/v1/merchants",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.merchant.deleteone.v1": {
+        "ID": 35,
+        "Name": "DELETE ONE MERCHANT",
+        "Method": "DELETE",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/merchant/v1/merchant/:merchantid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.tenant.create.v1": {
+        "ID": 36,
+        "Name": "Create tenant",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/tenant/v1/tenant",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.tenant.read.v1": {
+        "ID": 37,
+        "Name": "READ tenantS",
+        "Method": "POST",
+        "Endpoint": "api/rest/tms/dataaccess/1.0.0/tenant/v1/tenants",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.tenant.readone.v1": {
+        "ID": 38,
+        "Name": "READ ONE tenant",
+        "Method": "GET",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/tenant/v1/tenant/:tenantid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.tenant.update.v1": {
+        "ID": 39,
+        "Name": "UPDATE MULTIPLE tenant",
+        "Method": "PATCH",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/tenant/v1/tenants",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    },
+    "tms.api.rest.dataaccess.tenant.deleteone.v1": {
+        "ID": 40,
+        "Name": "DELETE ONE tenant",
+        "Method": "DELETE",
+        "Endpoint": "/api/rest/tms/dataaccess/1.0.0/tenant/v1/tenant/:tenantid",
+        "IsAvailable": true,
+        "IsMockEnabled": false
+    }
+}

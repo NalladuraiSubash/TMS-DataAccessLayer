@@ -1,0 +1,58 @@
+{
+    "tms.api.rest.dataaccess.priority.create.v1": {
+        "data": {
+            "PriorityID": 2,
+            "PriorityName": "High",
+            "CreatedUserID": 1,
+            "CreatedBy": "system-user",
+            "CreatedDate": "2023-11-04T10:36:53.493Z",
+            "ModifiedUserID": null,
+            "ModifiedBy": null,
+            "ModifiedDate": "2023-11-04T10:36:53.493Z"
+        },
+        "status": 200,
+        "message": "[MOCK] Priority has been created successfully"
+    },
+    "tms.api.rest.dataaccess.priority.read.v1": {
+        "data": {
+            "PriorityID": 2,
+            "PriorityName": "High",
+            "CreatedUserID": 1,
+            "CreatedBy": "system-user",
+            "CreatedDate": "2023-11-04T10:36:53.493Z",
+            "ModifiedUserID": null,
+            "ModifiedBy": null,
+            "ModifiedDate": "2023-11-04T10:36:53.493Z"
+        },
+        "status": 200,
+        "message": "[MOCK] Priority has been read successfully"
+    },
+    "tms.api.rest.dataaccess.priority.readone.v1": {
+        "data": {
+            "PriorityID": 2,
+            "PriorityName": "High",
+            "CreatedUserID": 1,
+            "CreatedBy": "system-user",
+            "CreatedDate": "2023-11-04T10:36:53.493Z",
+            "ModifiedUserID": null,
+            "ModifiedBy": null,
+            "ModifiedDate": "2023-11-04T10:36:53.493Z"
+        },
+        "status": 200,
+        "message": "[MOCK] Priority has been readone successfully"
+    },
+    "tms.api.rest.dataaccess.priority.update.v1": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[MOCK] Priority has been updated successfully"
+    },
+    "tms.api.rest.dataaccess.priority.delete.v1": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[MOCK] Priority has been deleted successfully"
+    }
+}

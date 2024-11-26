@@ -1,0 +1,64 @@
+{
+    "tms.api.rest.dataaccess.user.create.v1": {
+        "data": {
+            "UserID": 1,
+            "UserPhoneNumber": 1234345,
+            "UserName": "Sample",
+            "UserEmail": "sample@gove.co",
+            "CreatedUserID": 1,
+            "CreatedBy": "user1",
+            "CreatedDate": "2023-11-03T05:52:49.864Z",
+            "ModifiedUserID": 1,
+            "ModifiedBy": "user1",
+            "ModifiedDate": "2023-11-03T05:52:49.864Z"
+        },
+        "status": 200,
+        "message": "[MOCK] User has been created successfully"
+    },
+    "tms.api.rest.dataaccess.user.read.v1": {
+        "data": {
+            "UserID": 1,
+            "UserPhoneNumber": 1234345,
+            "UserName": "Sample",
+            "UserEmail": "sample@gove.co",
+            "CreatedUserID": 1,
+            "CreatedBy": "user1",
+            "CreatedDate": "2023-11-03T05:52:49.864Z",
+            "ModifiedUserID": 1,
+            "ModifiedBy": "user1",
+            "ModifiedDate": "2023-11-03T05:52:49.864Z"
+        },
+        "status": 200,
+        "message": "[MOCK] User has been read successfully"
+    },
+    "tms.api.rest.dataaccess.user.readone.v1": {
+        "data": {
+            "UserID": 1,
+            "UserPhoneNumber": 1234345,
+            "UserName": "Sample",
+            "UserEmail": "sample@gove.co",
+            "CreatedUserID": 1,
+            "CreatedBy": "user1",
+            "CreatedDate": "2023-11-03T05:52:49.864Z",
+            "ModifiedUserID": 1,
+            "ModifiedBy": "user1",
+            "ModifiedDate": "2023-11-03T05:52:49.864Z"
+        },
+        "status": 200,
+        "message": "[MOCK] User has been readone successfully"
+    },
+    "tms.api.rest.dataaccess.user.update.v1": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[MOCK] User has been updated successfully"
+    },
+    "tms.api.rest.dataaccess.user.delete.v1": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[MOCK] User has been deleted successfully"
+    }
+}

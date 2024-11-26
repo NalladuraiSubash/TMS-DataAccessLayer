@@ -1,0 +1,97 @@
+{
+    "tms.api.rest.dataaccess.task.create.v1": {
+        "data": {
+            "TaskID": 1,
+            "AssignedUserID": 1,
+            "StatusID": 1,
+            "PriorityID": 1,
+            "SeverityID": 1,
+            "ActivityID": null,
+            "TaskCode": "sample",
+            "Title": "Sample Task",
+            "Description": null,
+            "StartDate": "2023-10-31T07:24:28.675Z",
+            "EndDate": "2023-10-31T07:24:28.675Z",
+            "Risk": "test",
+            "Impediment": "test",
+            "CreatedUserID": 1,
+            "CreatedBy": "system-user",
+            "CreatedDate": "2023-11-04T07:02:46.394Z",
+            "ModifiedUserID": null,
+            "ModifiedBy": null,
+            "ModifiedDate": "2023-11-04T07:02:46.394Z",
+            "IsDeleted": false,
+            "TaskDependency": null
+        },
+        "status": 200,
+        "message": "[MOCK] Task has been created successfully"
+    },
+    "tms.api.rest.dataaccess.task.read.v1": {
+        "data": {
+            "TaskID": 1,
+            "AssignedUserID": 1,
+            "StatusID": 1,
+            "PriorityID": 1,
+            "SeverityID": 1,
+            "ActivityID": null,
+            "TaskCode": "sample",
+            "Title": "Sample Task",
+            "Description": null,
+            "StartDate": "2023-10-31T07:24:28.675Z",
+            "EndDate": "2023-10-31T07:24:28.675Z",
+            "Risk": "test",
+            "Impediment": "test",
+            "CreatedUserID": 1,
+            "CreatedBy": "system-user",
+            "CreatedDate": "2023-11-04T07:02:46.394Z",
+            "ModifiedUserID": null,
+            "ModifiedBy": null,
+            "ModifiedDate": "2023-11-04T07:02:46.394Z",
+            "IsDeleted": false,
+            "TaskDependency": null
+        },
+        "status": 200,
+        "message": "[MOCK] Task has been read successfully"
+    },
+    "tms.api.rest.dataaccess.task.readone.v1": {
+        "data": {
+            "TaskID": 1,
+            "AssignedUserID": 1,
+            "StatusID": 1,
+            "PriorityID": 1,
+            "SeverityID": 1,
+            "ActivityID": null,
+            "TaskCode": "sample",
+            "Title": "Sample Task",
+            "Description": null,
+            "StartDate": "2023-10-31T07:24:28.675Z",
+            "EndDate": "2023-10-31T07:24:28.675Z",
+            "Risk": "test",
+            "Impediment": "test",
+            "CreatedUserID": 1,
+            "CreatedBy": "system-user",
+            "CreatedDate": "2023-11-04T07:02:46.394Z",
+            "ModifiedUserID": null,
+            "ModifiedBy": null,
+            "ModifiedDate": "2023-11-04T07:02:46.394Z",
+            "IsDeleted": false,
+            "TaskDependency": null
+        },
+        "status": 200,
+        "message": "[MOCK] Task has been readone successfully"
+    },
+    "tms.api.rest.dataaccess.task.update.v1": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[MOCK] Task has been updated successfully"
+    },
+    "tms.api.rest.dataaccess.task.delete.v1": {
+        "data": {
+            "count": 1
+        },
+        "status": 200,
+        "message": "[MOCK] Task has been deleted successfully"
+    }
+}

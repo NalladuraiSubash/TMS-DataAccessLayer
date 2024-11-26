@@ -1,0 +1,31 @@
+{
+
+    "api.rest.config" : {
+        "IsLoggerEnabled" : true,
+        "FileTransport" : {
+            "IsTransportEnabled" : true,
+            "TransportConfig" : {
+                "FilePath" : "",
+                "FilePrefix" : "",
+                "FileType" : "",
+                "FileDelimiter" : ""
+            }
+        },
+        "ConsoleTransport" : {
+            "IsTransportEnabled" : true,
+            "TransportConfig" : {}
+        },
+        "DatabaseTransport" : {
+            "IsTransportEnabled" : true,
+            "TransportConfig" : {
+                "ElasticSearch" : {
+                    "IsEnabled" : true,
+                    "DatabaseURL":"https://dev1.alitasys.com:9200",
+                    "DatabaseName": "platform-api-logs",
+                    "Username" : "PK123213MNA",
+                    "Password":"232N$KLA0242KsfgD923"
+                }
+            }
+        }
+    }
+}
